@@ -7,7 +7,7 @@ It adopts [Denny's][2] implementation of Kim's [Convolutional Neural Network for
 * Numpy
 * Tensor Flow ( CPU only, Python 2.7) ([installation Link][3])
 
-###Files
+### Files
 1. data_helpers_pre.py 
    : Clean the data and make it into right format to be handled by CNN classifier
 
@@ -20,18 +20,18 @@ It adopts [Denny's][2] implementation of Kim's [Convolutional Neural Network for
 4. text_cnn.py
    : Model Formulation
 
-###Inputs
+### Inputs
 Sequence of tweets in string format
 
-###Outputs
+### Outputs
 * 1 for Repbulican
 * 0 for Democratic
 
-###How to use model to predict
+### How to use model to predict
 Modify data source in predict.py
 then run python predict.py
 
-###Note and TODO
+### Note and TODO
 1. Install the required libraries
 2. Modified code in data_helpers_pre.py to read tweet from DynamoDB(if applicable), the output should be strings or sequence of strings
 3. Modified code in the Data Loading section of predict.py to specify the input files 
